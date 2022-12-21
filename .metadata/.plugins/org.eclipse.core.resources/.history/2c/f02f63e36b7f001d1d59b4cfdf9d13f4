@@ -1,0 +1,38 @@
+package libary;
+
+public class Porgrapgh {
+	private int length;
+	private int number;
+   private long porgrapghSyntax;
+
+	Word word = new Word();
+
+//--------------------seters
+	public void setLength(int pLength) {
+		this.length = pLength;
+	}
+
+	public void setNumber(int pLines) {
+		this.number = pLines;
+	}
+
+	public void setPorgrapghSyntax(long porgrapghSyntax) {
+		this.porgrapghSyntax = porgrapghSyntax;
+	}
+//--------------------geters
+	public int getLength() {
+		return this.length;
+	}
+
+	public int getNumber() {
+		return this.number;
+	}
+	
+	public long getPorgrapghSyntax() {
+	return porgrapghSyntax;
+}
+
+//-----------------prograpgh methods
+	void comment() {
+	}
+}

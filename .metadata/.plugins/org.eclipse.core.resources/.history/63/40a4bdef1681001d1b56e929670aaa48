@@ -1,0 +1,96 @@
+package collage;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		List<school> schoolList = new ArrayList<>();
+		Scanner sc = new Scanner(System.in);
+
+		int index = 0;
+		boolean schoolCheck = true;
+		while (schoolCheck) {// SCHOOL
+			System.out.println("do you want to add new school ?");
+			schoolList.add(new school());
+			school schoolObj = schoolList.get(index);
+			if (sc.next().equals("y")) {
+
+				while (schoolObj.check) {// department
+					System.out.println("do you want to add new department ?");
+					schoolObj.departmentList.add(new Department());
+					Department departmentObj = schoolObj.departmentList.get(schoolObj.index);
+					if (sc.next().equals("y")) {
+
+						while (departmentObj.check) {// teacher
+							System.out.println("do you want to add new teahcher ?");
+							departmentObj.teachertList.add(new Teacher());
+							Teacher teacherObj = departmentObj.teachertList.get(departmentObj.index);
+							if (sc.next().equals("y")) {
+
+								while (teacherObj.check) {// student
+									System.out.println("do you want to add new student ?");
+									teacherObj.studentList.add(new Student());
+									Student studentObj = teacherObj.studentList.get(teacherObj.index);
+									if (sc.next().equals("y")) {
+
+										while (studentObj.check) {// course
+											System.out.println("do you want to add new course ?");
+											studentObj.courseList.add(new Course());
+											Course courseObj = studentObj.courseList.get(studentObj.index);
+											if (sc.next().equals("y")) {
+
+
+												while (courseObj.check) {// mark
+													System.out.println("do you want to add new mark ?");
+													courseObj.markList.add(new Mark());
+													Mark markObj = courseObj.markList.get(courseObj.index);
+													if (sc.next().equals("y")) {
+
+														courseObj.index++;
+													} else {
+														System.out.println("course finshed");
+														courseObj.check = false;
+													}
+												} //course
+												
+												studentObj.index++;
+											} else {
+												System.out.println("course finshed");
+												studentObj.check = false;
+											}
+										} //course
+										
+										teacherObj.index++;
+									} else {
+										System.out.println("student finshed");
+										teacherObj.check = false;
+									}
+								} //student
+								
+								departmentObj.index++;
+							} else {
+								System.out.println("teacher finshed");
+								departmentObj.check = false;
+							}
+						} // // teacher
+						
+						schoolObj.index++;
+					} else {
+						System.out.println("department finshed");
+						schoolObj.check = false;
+					}
+				} // department
+
+				index++;
+			} else {
+				System.out.println("school finshed");
+				schoolCheck = false;
+			}
+		} // SCHOOL
+
+	}
+
+}

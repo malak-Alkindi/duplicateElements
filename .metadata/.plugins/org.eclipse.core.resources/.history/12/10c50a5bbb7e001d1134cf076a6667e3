@@ -1,0 +1,10 @@
+package libary;
+
+  class  Errors {
+public static String valueNotAssigned() {
+	
+	return "you cant show this error or writinh an answer that not writing in the board yet cuz of a bureacartic teaching, pls dont think copy";
+}
+
+
+}

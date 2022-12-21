@@ -1,0 +1,10 @@
+package libary;
+
+public class Porgrapgh {
+	int length;
+	int number;
+	
+word wrd=new word();
+
+void comment() {}
+}

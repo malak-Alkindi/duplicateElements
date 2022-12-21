@@ -1,0 +1,40 @@
+package libary;
+
+public class Book {
+	private String author;
+	private String type;
+	int id ;
+	
+	Chapter[] chptr=new Chapter[5];
+	
+   void assignNewChapter () {
+	
+	for(int i=0;i<chptr.length;i++) {
+		chptr[i]=new Chapter();
+		 
+	} }
+	public void setAuthor(String name,String bookType) {
+		author = name;
+		type = bookType;
+	};
+	
+	
+	public String getAuther() {
+   if(author==null) {
+	return Errors.valueNotAssigned();
+    }
+   else {
+	return author;
+   }
+	};
+	 
+	public String getType() {
+		   if(type==null) {
+				return Errors.valueNotAssigned();
+				}
+			   else {
+				return type;
+			   }
+
+		};
+}

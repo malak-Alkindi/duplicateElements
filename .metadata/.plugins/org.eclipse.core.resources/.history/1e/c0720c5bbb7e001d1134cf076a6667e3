@@ -1,0 +1,26 @@
+package libary;
+
+public class Porgrapgh {
+	private int length;
+	private int number;
+	
+Word word=new Word();
+//--------------------seters
+public void setLength(int pLength) {
+	this.length=pLength;
+}
+public void setNumber(int pLines) {
+	this.number=pLines;
+}
+
+//--------------------geters
+public int getLength() {
+return this.length;
+}
+public int getNumber() {
+	return this.number;
+}
+
+//-----------------prograpgh methods
+void comment() {}
+}

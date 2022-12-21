@@ -1,0 +1,10 @@
+package libary;
+
+  class  Errors {
+public static String valueNotAssigned() {
+	
+	return "someyhing went wrong ,the value you want is not assigned";
+}
+
+
+}
