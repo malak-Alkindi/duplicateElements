@@ -15,6 +15,13 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Lenovo\Desktop\TestEvaluationPDF-main\src\Evaluation"/>
+			<item value="C:\Users\Lenovo\Desktop\TestEvaluationPDF-main\src"/>
+			<item value="C:\Users\Lenovo\Desktop\TestEvaluationPDF-main"/>
+			<item value="C:\Users\Lenovo\Downloads\evaluationOne-main\evaluationOne-main\src"/>
+			<item value="C:\Users\Lenovo\eclipse-workspace\evaluationProject1"/>
+			<item value="C:\Users\Lenovo\Desktop\project-school-main"/>
+			<item value="C:\Users\Lenovo\Downloads\school-main"/>
 			<item value="C:\Users\Lenovo\Desktop\objchain-edit"/>
 			<item value="C:\Users\Lenovo\Desktop\objchain\src"/>
 			<item value="E:\objchain\src"/>
@@ -26,6 +33,12 @@
 		<item key="DIALOG_Y_ORIGIN" value="142"/>
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="580"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

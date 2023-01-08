@@ -5,18 +5,25 @@
 		<item key="DIALOG_Y_ORIGIN" value="396"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="output"/>
+		<item key="selection" value="do you want to create school system y/n"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="do you want to create school system y/n"/>
+			<item value="int"/>
+			<item value=".strip"/>
+			<item value="String.strip()"/>
+			<item value="Error"/>
 			<item value="output"/>
 			<item value="sysout"/>
 			<item value=""/>
 		</list>
 		<list key="replacehistory">
+			<item value="Integer"/>
+			<item value="format"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

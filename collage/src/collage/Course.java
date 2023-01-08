@@ -1,14 +1,14 @@
 package collage;
-
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class Course {
+public class Course implements Serializable {
 	private String name;
-	private int id;
+	private Integer id;
 
-	private List<Mark> markList = new ArrayList<>();
+	private ArrayList<Mark> markList ;
 //----------------------- seters and geters-------------------------	
 	
 	public String getName() {
@@ -23,14 +23,12 @@ public class Course {
 	public void setId(int id) {
 		this.id = id;
 	}
+	public List<Mark> getMarkList() {
+		return markList;
+	}
+	public void setMarkList(ArrayList<Mark> markList) {
+		this.markList = markList;
+	}
 	
-	//------------------ class methods-------------------
-	void addNewmark(Mark mark) {
-		markList.add(mark);
-		
-	}
 
-	Mark getMark(int index) {
-		return markList.get(index);
-	}
 }

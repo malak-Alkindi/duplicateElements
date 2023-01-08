@@ -1,16 +1,15 @@
 package collage;
-
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
-
-public class school {
+public class School implements Serializable {
 
 	private String location;
-	private int phoneNumber;
+	private Integer phoneNumber;
 	
-
-	private ArrayList<Department> departmentList = new ArrayList<>();
+	private ArrayList<Department> departmentList;
 
 	//----------------------- seters and geters-------------------------
 
@@ -26,17 +25,18 @@ public class school {
 	public void setPhoneNumber(int phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
-
-	//------------------ class methods-------------------
-	public void addNewDepartment(Department departmetnt) {
-		departmentList.add(departmetnt);
-	
-	}
-
-	ArrayList<Department>  getDepartment() {
+	public ArrayList<Department> getDepartmentList() {
 		return departmentList;
 	}
+	public void setDepartmentList(ArrayList<Department> departmentList) {
+		this.departmentList = departmentList;
+	}
 
+	static void history(Stack stk){
+		for(int i=0;i<=stk.size();i++) {
+		System.out.println(format.red +stk.pop());
+	}}
+	
 	}
 
 

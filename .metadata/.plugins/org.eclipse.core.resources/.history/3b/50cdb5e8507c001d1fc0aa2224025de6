@@ -1,7 +1,0 @@
-package libary;
-
-public class Word {
-	String type;
-	Charcter chrcter =new Charcter();
-	void underLine() {}
-}

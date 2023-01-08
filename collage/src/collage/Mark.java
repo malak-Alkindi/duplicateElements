@@ -1,9 +1,12 @@
 package collage;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Mark {
+public class Mark implements Serializable {
 
 	private String subjectName;
-	private int mark;
+	private Integer mark;
 
 	
 //----------------------- seters and geters-------------------------	
@@ -22,5 +25,11 @@ public class Mark {
 	}
 	
 	//------------------ class methods-------------------
-	
+	 double getGpa(List<Mark> glist) {
+		double total=0;
+		for(Mark mark:glist) {
+			total=total+(double)(mark.getMark());
+		}
+		return total/glist.size();
+	}
 }

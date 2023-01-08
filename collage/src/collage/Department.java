@@ -1,17 +1,17 @@
 package collage;
-
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 
 
-public class Department {
+public class Department implements Serializable {
 
 	private String name;
-	private int floor;
+	private Integer floor;
 
 	
-	private ArrayList<Teacher> teachertList = new ArrayList<>();
+	private ArrayList<Teacher> teachertList;
 //----------------------- seters and geters-------------------------
 	
 	public String getName() {
@@ -26,15 +26,13 @@ public class Department {
 	public void setFloor(int floor) {
 		this.floor = floor;
 	}
-	
-	//------------------ class methods-------------------
-	public void addNewTeacher(Teacher teacher) {
-		teachertList.add(teacher);
-	
-	}
-
-	 ArrayList<Teacher> getTeacher() {
+	public ArrayList<Teacher> getTeachertList() {
 		return teachertList;
 	}
+	public void setTeachertList(ArrayList<Teacher> teachertList) {
+		this.teachertList = teachertList;
+	}
+	
+
 }
 

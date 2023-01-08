@@ -1,17 +1,17 @@
-package collage;
-
+'package collage;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 
 
-public class Teacher {
+public class Teacher implements Serializable ,Assigning{
 
 	private String type;
 	private String name;
 	
 	
-	private ArrayList<Student> studentList = new ArrayList<>();
+	private ArrayList<Student> studentList;
 //----------------------- seters and geters-------------------------	
 	
 	public String getType() {
@@ -26,14 +26,17 @@ public class Teacher {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	//------------------ class methods-------------------
-	void addNewStudent(Student student) {
-		studentList.add(student);
+	public ArrayList<Student> getStudentList() {
+		return studentList;
+	}
+	public void setStudentList(ArrayList<Student> studentList) {
+		this.studentList = studentList;
+	}
+	@Override
+	public void introduceToDepartment() {
+		// TODO Auto-generated method stub
 		
 	}
-
-	Student getStudent(int index) {
-		return studentList.get(index);
-	}
+	
+	
 }

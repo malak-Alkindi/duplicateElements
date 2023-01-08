@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-barcodes-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-barcodes-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-barcodes-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-font-asian-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-font-asian-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-forms-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-forms-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-forms-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-hyph-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-hyph-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-io-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-io-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-io-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-itext7-root-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-itext-rups-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-itext-rups-7.0.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-itext-rups-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-itext-rups-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-kernel-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-kernel-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-kernel-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-layout-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-layout-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-layout-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-pdfa-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-pdfa-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-pdfa-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-pdftest-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-pdftest-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-pdftest-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-sign-7.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-sign-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/JARS/itext7-sign-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/itext-5.0.5.jar/itext-5.0.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
