@@ -11,6 +11,7 @@
 	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\Users\Lenovo\Desktop"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
+	<item key="filters_last_used" value="filter_imports;"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -47,7 +48,7 @@
 		<item key="VisibilityModifier" value="1"/>
 		<item key="FinalModifier" value="false"/>
 		<item key="SynchronizedModifier" value="false"/>
-		<item key="Comments" value="false"/>
+		<item key="Comments" value="true"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item key="SortOrdering" value="false"/>
@@ -78,5 +79,47 @@
 		<list key="org.eclipse.jdt.ui.refactoring.jarHistory">
 			<item value="C:\Users\Lenovo\Downloads\pdfbox-debugger-3.0.0-alpha3.jar"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="NewAnnotationWizardPage">
+		<item key="add_documented" value="false"/>
+		<section name="AddRetention">
+			<item key="enabled" value="false"/>
+			<list key="selectedEnums">
+				<item value="CLASS"/>
+			</list>
+		</section>
+		<section name="AddTarget">
+			<item key="enabled" value="false"/>
+			<list key="selectedEnums">
+			</list>
+		</section>
+	</section>
+	<section name="JavaSearchPage">
+		<item key="CASE_SENSITIVE" value="false"/>
+		<item key="INCLUDE_MASK" value="11"/>
+		<item key="HISTORY_SIZE" value="1"/>
+		<section name="HISTORY0">
+			<item key="searchFor" value="0"/>
+			<item key="scope" value="0"/>
+			<item key="pattern" value="itemsReport"/>
+			<item key="limitTo" value="2"/>
+			<item key="matchLocations" value="0"/>
+			<item key="javaElement" value=""/>
+			<item key="isCaseSensitive" value="false"/>
+			<item key="includeMask" value="11"/>
+			<list key="workingSets">
+			</list>
+		</section>
 	</section>
 </section>

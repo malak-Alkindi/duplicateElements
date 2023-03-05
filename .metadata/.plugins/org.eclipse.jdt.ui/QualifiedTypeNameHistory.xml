@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="collage.Error"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="collage.School"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.nio.file.Files"/>
     <fullyQualifiedTypeName name="com.itextpdf.text.pdf.parser.Path"/>
     <fullyQualifiedTypeName name="com.itextpdf.text.pdf.parser.clipper.Paths"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="com.itextpdf.text.pdf.PdfWriter"/>
     <fullyQualifiedTypeName name="java.io.Console"/>
     <fullyQualifiedTypeName name="com.itextpdf.text.pdf.PdfReader"/>
     <fullyQualifiedTypeName name="com.itextpdf.text.pdf.parser.PdfTextExtractor"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="duplicateElements.addTwoListsOfIntegersAndSortThem"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Deque"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Invoice"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.file.Path"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="Reporting"/>
 </qualifiedTypeNameHistroy>

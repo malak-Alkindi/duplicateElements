@@ -24,6 +24,7 @@ public class main {
 	public static void main(String[] args) throws Exception {
 		Stack narkHistoryStack = new Stack();
 		Scanner sc = new Scanner(System.in);
+		
 		School sss = new School();
 		Class<?> aa = sss.getClass(); // Type information associated with type `A`
 		System.out.println(aa.getName());
